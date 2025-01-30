@@ -1,0 +1,68 @@
+/* Import Font Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Warna Branding */
+:root {
+    --primary-color: #1E1E1E; /* Hitam Elegan */
+    --secondary-color: #FFD700; /* Emas Mewah */
+    --text-color: #FFFFFF; /* Putih */
+    --bg-light: #F8F9FA; /* Abu Terang */
+    --btn-color: #FFD700;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--bg-light);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Home Section */
+section {
+    padding: 50px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--btn-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 15px;
+}
